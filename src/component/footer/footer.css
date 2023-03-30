@@ -1,0 +1,203 @@
+footer {
+    background-color: #010C2A;
+    width: 100%;
+    height: 70vh;
+    margin-top: 550px;
+}
+
+.subscribe {
+    background-color: #824CF2;
+    width: 100%;
+    border-radius: 10px;
+    transform: translateY(-100px);
+    height: 272px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row .col-lg-6:nth-child(1) h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: serif;
+    margin-left: 50px;
+    width: 350px;
+    margin-top: -100px;
+}
+
+.email {
+    width: 300px;
+    height: 48px;
+    padding: 16px 0px 16px 30px;
+    border: none;
+    outline: none;
+}
+
+.subemail {
+    padding: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: white;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+
+.subemail button {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    color: white;
+    font-weight: 600;
+    padding: 16px 25px;
+    border-radius: 5px;
+    background: #FF6ABB;
+    text-transform: uppercase;
+    border: none;
+}
+
+.row-2 {
+    display: flex;
+    border-bottom: 1px solid #2e4586;
+}
+
+.halfcircle {
+    margin-top: 35%;
+    left: 100%;
+    position: relative;
+    animation: halfcircle 10s infinite;
+}
+
+@keyframes halfcircle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hand {
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -50px;
+}
+
+.subform span {
+    color: #fff;
+    position: absolute;
+}
+
+.triangle {
+    position: absolute;
+    left: 8%;
+    animation: circle 10s infinite;
+    top: 100%;
+}
+
+@keyframes circle {
+    0% {
+        top: 100%;
+    }
+
+    25% {
+        top: 114%;
+    }
+
+    100% {
+        top: 100%;
+    }
+
+}
+
+.col-lg-6 {
+    margin-left: 50px;
+}
+
+.ul-items {
+    list-style-type: none;
+}
+
+.li-items {
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    margin-left: 25px;
+}
+
+.li-items:hover {
+    color: #824CF2;
+    margin-left: 15px;
+    transition: all .5s ease;
+}
+
+.hero {
+    color: #fff;
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+.col-lg-6:nth-child(1) p {
+    color: #fff;
+    width: 250px;
+}
+
+.col-lg-6:nth-child(4) p {
+    color: #fff;
+    width: 200px;
+}
+.ft_hero{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+.ftleft p span{
+    color: #824CF2;
+}
+.ftright p a{
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+    padding: 4px;
+}
+@media screen and (max-width: 1440px) {
+    .hand {
+        margin-left: 39%;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hand {
+        display: none;
+    }
+
+    .row-2 {
+        margin-bottom: 50px;
+    }
+
+    .halfcircle {
+        left: 76%;
+    }
+
+    .col-lg-6 {
+        margin-left: 25px;
+    }
+
+    .li-items {
+        padding: 5px;
+    }
+
+    .row .col-lg-6:nth-child(1) h2 {
+        margin-top: -46px;
+    }
+
+    .email {
+        width: 175px;
+        height: 25px;
+    }
+}

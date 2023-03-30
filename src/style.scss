@@ -1,0 +1,29 @@
+@import"./main.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    &::-webkit-scrollbar{
+        width: 10px;
+    }
+    &::-webkit-scrollbar-track{
+        background: #c3b7dc;
+   
+    }
+    &::-webkit-scrollbar-thumb{
+        width: 10px;
+        background: #824CF2;
+        border-radius: 10px;
+    }
+}

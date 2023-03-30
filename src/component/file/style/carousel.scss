@@ -1,0 +1,1219 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Manjari&family=Ubuntu:ital,wght@0,500;1,400&family=Varela+Round&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+
+// font-family: 'Domine', serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    padding-top: 7rem;
+}
+
+.product {
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+    background: #FFF;
+    box-shadow: 0 3px 24px rgb(0 0 0 / 4%);
+    border-radius: 8px;
+
+
+    .product-thumb {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+        .text {
+            height: 500px;
+            width: 397px;
+            margin-top: -100px;
+            position: absolute;
+            margin: 0;
+            border-radius: 10px;
+            transition: all .5s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                background: rgba(0, 0, 0, 0.563);
+
+                .text2 {
+
+                    .arrow {
+                        margin-left: 250px;
+                        background: #824CF2;
+
+                        i {
+                            color: #FFF;
+                        }
+                    }
+
+                    background: #FFF;
+
+                    .web {
+                        p {
+                            color: #824CF2;
+                        }
+
+                        h5 {
+                            color: #1C1E22;
+                        }
+                    }
+                }
+            }
+
+            .text2 {
+                width: 282px;
+                height: 141px;
+                background: rgba(255, 0, 0, 0);
+                margin-top: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                transition: all .5s;
+
+                .web {
+                    position: absolute;
+                    left: 80px;
+
+                    p {
+                        font-family: 'Domine', serif;
+                        color: rgba(255, 255, 255, 0);
+                        transition: all .5s;
+                    }
+
+                    h5 {
+                        font-family: 'Domine', serif;
+                        color: rgba(0, 0, 0, 0);
+                        font-size: 18px;
+                        transition: all .5s;
+
+                    }
+                }
+
+                .arrow {
+                    margin-left: 160px;
+                    border-radius: 10pc;
+                    width: 100px;
+                    height: 100px;
+                    background: rgba(255, 255, 255, 0);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all .5s;
+                    position: absolute;
+
+                    i {
+                        font-size: 20px;
+                        color: rgba(255, 255, 255, 0);
+                        position: absolute;
+                        transition: all .5s;
+                    }
+                }
+
+                &:hover {
+                    .arrow {
+                        margin-left: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.product-thumb img {
+    width: 400px;
+    height: 500px;
+    position: initial;
+}
+
+.product-thumb {
+    width: 400px;
+    height: 500px;
+    transition: all .5s;
+    border-radius: 10px;
+
+}
+
+.title h6 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #18181D;
+}
+
+.price {
+    margin: 15px 0;
+}
+
+.price span {
+    color: #18181D;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.star i {
+    margin-right: 5px;
+    font-size: 12px;
+    color: #CBC9CE;
+}
+
+.product-footer {
+    margin-top: 20px;
+}
+
+.btn {
+    display: flex;
+    font-display: column;
+}
+
+.btn-custom {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    background: #B9AB11;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 12px 30px;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+.btn .primary {
+    color: #FFF;
+}
+
+.btn .primary:hover {
+    background: #3C3C3C;
+}
+
+.btn .second {
+    background: #FFF;
+    color: #B9AB11;
+}
+
+.row {
+    .stu {
+        color: #824CF2;
+        font-family: 'Domine', serif;
+        font-weight: 600;
+        border-bottom: solid 2px;
+        width: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 164px;
+    }
+
+    h2 {
+        font-family: 'Domine', serif;
+        font-size: 50px;
+        font-weight: 550;
+        color: #1B1D21;
+        margin-left: 164px;
+        margin-top: 0px;
+
+        b {
+            font-weight: 500;
+            border-bottom: solid 3px #824CF2;
+        }
+    }
+
+    .nav {
+        .box {
+            background-image: url(../img/video-bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 1167px;
+            height: 491px;
+            // margin-top: 116  0px;
+            border-radius: 10px;
+            transition: all .5s;
+            .shadow2{
+                height: 491px;
+                width: 1167px;
+                position: absolute;
+                border-radius: 10px;
+                // top: 280%;
+                opacity: 0.7;
+                background-color: #010C2A;
+            }
+            p {
+                color: #824CF2;
+                border-bottom: 1px #824CF2 solid;
+                width: 195px;
+                font-weight: 600;
+                font-family: "Domine", serif;
+            }
+
+            h1 {
+                font-family: "Domine", serif;
+                color: #FFF;
+                font-size: 50px;
+
+                b {
+                    border-bottom: 3px solid #824CF2;
+                }
+            }
+
+            .round3 {
+                margin-top: 40px;
+                height: 150px;
+                border-radius: 10pc;
+                width: 10px;
+                background: #824CF2;
+                transition: all .5s;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &:hover {
+                    height: 150px;
+                    width: 150px;
+                    .play{
+                        background: #FFF;
+                        border-radius: 10pc;
+                        i{
+                            color: #824CF2;
+                        }
+                    }
+                }
+                .play{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 60px;
+                    width: 60px;
+                    transition: all .5s;
+                    &:hover{
+                        i{
+                            font-size: 30px;
+                        }
+                    }
+                    i{
+                        color: #1c1e2200;
+                        transition: all .5s;
+                        font-size: 27px;
+                    }
+                }
+            }
+        }
+
+        .div {
+            .img8 {
+                margin-left: 1200px;
+
+            }
+
+            background: #F0EEF5;
+            height: 140vh;
+
+            img {
+                position: absolute;
+                left: 155px;
+                margin-top: 150px;
+                animation: spin 15s linear infinite;
+
+                @keyframes spin {
+                    100% {
+                        -webkit-transform: rotate(360deg);
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+
+            center {
+                .textwrite {
+                    p {
+                        font-family: 'Domine', serif;
+                        color: #824CF2;
+                        font-weight: 600;
+                        border-bottom: solid 2px #824CF2;
+                        width: 158px;
+                    }
+
+                    h2 {
+                        margin: 0;
+                    }
+                }
+            }
+
+            .pagess {
+                // box-shadow: 0 3px;
+                margin-left: -100px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                // width: 10px;
+                .first {
+                    background: #FFF;
+                    width: 370px;
+                    height: 563.5px;
+                    border-radius: 10px;
+                    margin-left: 100px;
+                    box-shadow: 0 2px 5px #824CF2;
+                    transition: all .5s;
+                    &:hover{
+                        box-shadow: 0 5px 11px #824CF2;
+                    }
+                    .first1 {
+                        .gradus {
+                            border-radius: 10pc;
+                            margin-top: 80px;
+                            width: 60px;
+                            height: 60px;
+                            background: #834cf22b;
+                            position: absolute;
+                            margin-left: 10px;
+                        }
+
+                        width: 300px;
+                        display: grid;
+                        justify-content: start;
+                        margin-top: 50px;
+
+                        h4 {
+                            font-family: 'Domine', serif;
+                            font-weight: 500;
+                            font-size: 33px;
+                            color: #1C1E22;
+                        }
+
+                        .h112 {
+                            font-size: 65px;
+                        }
+
+                        .p112 {
+                            font-size: 20px;
+                            font-weight: 300;
+                            color: #000;
+                            margin-left: 0px;
+                            margin-top: 30px;
+                        }
+
+                        .p1123 {
+                            color: #000;
+                            font-size: 20px;
+                            margin-left: 0;
+                            margin-top: 30px;
+                            font-weight: 300;
+
+                        }
+
+                        p {
+                            color: #4A4B4E;
+                            font-family: 'Domine', serif;
+                            margin-left: -10px;
+                            margin-left: -20px;
+                        }
+
+                        .p1 {
+                            margin-left: 0;
+                        }
+
+                        .p2 {
+                            margin-left: 0;
+                        }
+
+                        h1 {
+                            font-family: 'Domine', serif;
+                            font-size: 65px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            i {
+                                font-size: 25px;
+                            }
+
+                            b {
+                                font-size: 20px;
+                                margin-top: 30px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+
+                    .borderbottom {
+                        border: solid 0.5px #E8E8E9;
+                        width: 300px;
+                        margin-top: 30px;
+                    }
+
+                    .second1 {
+                        display: grid;
+                        align-items: center;
+                        justify-content: start;
+                        width: 300px;
+                        height: 250px;
+
+                        b {
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+                            font-family: 'Domine', serif;
+                            color: #1C1E22;
+                            font-weight: 400;
+
+                            i {
+                                border: solid 1px #E8E8E9;
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 10pc;
+                                align-items: center;
+                                justify-content: center;
+                                color: #824CF2;
+                                font-size: 20px;
+                            }
+                        }
+
+                        button {
+                            border: solid #824CF2 1px;
+                            height: 50px;
+                            width: 200px;
+                            background: #FFF;
+                            font-family: 'Domine', serif;
+                            color: #824CF2;
+                            font-weight: 600;
+                            font-size: 15px;
+                            transition: all .5s;
+
+                            &:hover {
+                                background: #824CF2;
+                                color: #FFF;
+                            }
+                        }
+                    }
+                }
+                .first112{
+                    background: #FFF;
+                    width: 370px;
+                    height: 563.5px;
+                    border-radius: 10px;
+                    margin-left: 100px;
+                    box-shadow: 0 2px 5px #824CF2;
+                    transition: all .5s;
+                    &:hover{
+                        box-shadow: 0 5px 11px #824CF2;
+                    }
+                    .first1 {
+                        .gradus {
+                            border-radius: 10pc;
+                            margin-top: 80px;
+                            width: 60px;
+                            height: 60px;
+                            background: #834cf22b;
+                            position: absolute;
+                            margin-left: 10px;
+                        }
+
+                        width: 300px;
+                        display: grid;
+                        justify-content: start;
+                        margin-top: 50px;
+
+                        h4 {
+                            font-family: 'Domine', serif;
+                            font-weight: 500;
+                            font-size: 33px;
+                            color: #1C1E22;
+                        }
+
+                        .h112 {
+                            font-size: 65px;
+                        }
+
+                        .p112 {
+                            font-size: 20px;
+                            font-weight: 300;
+                            color: #000;
+                            margin-left: 0px;
+                            margin-top: 30px;
+                        }
+
+                        .p1123 {
+                            color: #000;
+                            font-size: 20px;
+                            margin-left: 0;
+                            margin-top: 30px;
+                            font-weight: 300;
+
+                        }
+
+                        p {
+                            color: #4A4B4E;
+                            font-family: 'Domine', serif;
+                            margin-left: -10px;
+                            margin-left: -20px;
+                        }
+
+                        .p1 {
+                            margin-left: 0;
+                        }
+
+                        .p2 {
+                            margin-left: 0;
+                        }
+
+                        h1 {
+                            font-family: 'Domine', serif;
+                            font-size: 65px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            i {
+                                font-size: 25px;
+                            }
+
+                            b {
+                                font-size: 20px;
+                                margin-top: 30px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+
+                    .borderbottom {
+                        border: solid 0.5px #E8E8E9;
+                        width: 300px;
+                        margin-top: 30px;
+                    }
+
+                    .second1 {
+                        display: grid;
+                        align-items: center;
+                        justify-content: start;
+                        width: 300px;
+                        height: 250px;
+
+                        b {
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+                            font-family: 'Domine', serif;
+                            color: #1C1E22;
+                            font-weight: 400;
+
+                            i {
+                                border: solid 1px #E8E8E9;
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 10pc;
+                                align-items: center;
+                                justify-content: center;
+                                color: #824CF2;
+                                font-size: 20px;
+                            }
+                        }
+
+                        button {
+                            border: solid #824CF2 1px;
+                            height: 50px;
+                            width: 200px;
+                            background: #FFF;
+                            font-family: 'Domine', serif;
+                            color: #824CF2;
+                            font-weight: 600;
+                            font-size: 15px;
+                            transition: all .5s;
+
+                            &:hover {
+                                background: #824CF2;
+                                color: #FFF;
+                            }
+                        }
+                    }
+                }
+                .first1122{
+                    background: #FFF;
+                    width: 370px;
+                    height: 563.5px;
+                    border-radius: 10px;
+                    margin-left: 100px;
+                    box-shadow: 0 2px 5px #824CF2;
+                    transition: all .5s;
+                    &:hover{
+                        box-shadow: 0 5px 11px #824CF2;
+                    }
+                    .first1 {
+                        .gradus {
+                            border-radius: 10pc;
+                            margin-top: 80px;
+                            width: 60px;
+                            height: 60px;
+                            background: #834cf22b;
+                            position: absolute;
+                            margin-left: 10px;
+                        }
+
+                        width: 300px;
+                        display: grid;
+                        justify-content: start;
+                        margin-top: 50px;
+
+                        h4 {
+                            font-family: 'Domine', serif;
+                            font-weight: 500;
+                            font-size: 33px;
+                            color: #1C1E22;
+                        }
+
+                        .h112 {
+                            font-size: 65px;
+                        }
+
+                        .p112 {
+                            font-size: 20px;
+                            font-weight: 300;
+                            color: #000;
+                            margin-left: 0px;
+                            margin-top: 30px;
+                        }
+
+                        .p1123 {
+                            color: #000;
+                            font-size: 20px;
+                            margin-left: 0;
+                            margin-top: 30px;
+                            font-weight: 300;
+
+                        }
+
+                        p {
+                            color: #4A4B4E;
+                            font-family: 'Domine', serif;
+                            margin-left: -10px;
+                            margin-left: -20px;
+                        }
+
+                        .p1 {
+                            margin-left: 0;
+                        }
+
+                        .p2 {
+                            margin-left: 0;
+                        }
+
+                        h1 {
+                            font-family: 'Domine', serif;
+                            font-size: 65px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            i {
+                                font-size: 25px;
+                            }
+
+                            b {
+                                font-size: 20px;
+                                margin-top: 30px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+
+                    .borderbottom {
+                        border: solid 0.5px #E8E8E9;
+                        width: 300px;
+                        margin-top: 30px;
+                    }
+
+                    .second1 {
+                        display: grid;
+                        align-items: center;
+                        justify-content: start;
+                        width: 300px;
+                        height: 250px;
+
+                        b {
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+                            font-family: 'Domine', serif;
+                            color: #1C1E22;
+                            font-weight: 400;
+
+                            i {
+                                border: solid 1px #E8E8E9;
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 10pc;
+                                align-items: center;
+                                justify-content: center;
+                                color: #824CF2;
+                                font-size: 20px;
+                            }
+                        }
+
+                        button {
+                            border: solid #824CF2 1px;
+                            height: 50px;
+                            width: 200px;
+                            background: #FFF;
+                            font-family: 'Domine', serif;
+                            color: #824CF2;
+                            font-weight: 600;
+                            font-size: 15px;
+                            transition: all .5s;
+
+                            &:hover {
+                                background: #824CF2;
+                                color: #FFF;
+                            }
+                        }
+                    }
+                }
+                .second {
+                    background: #FFF;
+                    width: 370px;
+                    height: 563.5px;
+                    margin-left: -100px;
+
+                    .first1 {
+                        h4 {
+                            font-family: 'Domine', serif;
+                            font-weight: 500;
+                            font-size: 33px;
+                            color: #1C1E22;
+                        }
+
+                        p {
+                            color: #4A4B4E;
+                            font-family: 'Domine', serif;
+                            margin-left: -10px;
+                            margin-left: -20px;
+                        }
+
+                        h1 {
+                            font-family: 'Domine', serif;
+                            font-size: 65px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            i {
+                                font-size: 25px;
+                            }
+
+                            b {
+                                font-size: 20px;
+                                margin-top: 30px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+
+                .third {
+                    background: #FFF;
+                    width: 370px;
+                    height: 563.5px;
+                    margin-left: -100px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .row{
+        .nav{
+            .box{
+                .shadow2{
+                    width: 800px;
+                    height: 400px;
+                }
+            }
+            .div{
+                .pagess{
+                    display: flex;
+                    align-items: center;
+                    .first{
+                        margin-left: 100px;
+                        height: 420px;
+                        width: 300px;
+                        .borderbottom{
+                            width: 260px;
+                        }
+                        .first1{
+                            margin: 0;
+                            height: 140px;
+                            .h112{
+                                margin-left: 10px;
+                            }
+                        }
+                        border: solid 1px;
+                        .second1{
+                            height: 200px;
+                            button{
+                                margin-left: 28px;
+                            }
+                        }
+                    }
+                    .first112{
+                        margin-left: -0px;
+                        height: 420px;
+                        width: 300px;
+                        .borderbottom{
+                            width: 260px;
+                        }
+                        .first1{
+                            margin: 0;
+                            height: 140px;
+                            .h112{
+                                margin-left: 10px;
+                            }
+                        }
+                        border: solid 1px;
+                        .second1{
+                            height: 200px;
+                            button{
+                                margin-left: 28px;
+                            }
+                        }
+                    }
+                    .first1122{
+                        margin-left: -0px;
+                        height: 420px;
+                        width: 300px;
+                        .borderbottom{
+                            width: 260px;
+                        }
+                        .first1{
+                            margin: 0;
+                            height: 140px;
+                            .h112{
+                                margin-left: 10px;
+                            }
+                        }
+                        border: solid 1px;
+                        .second1{
+                            height: 200px;
+                            button{
+                                margin-left: 28px;
+                            }
+                        }
+                    }
+                }
+                .img8{
+                    margin-left: 770px;
+                }
+            }
+            .box{
+                max-width: 800px;
+                height: 400px;
+                p{
+                    margin-top: -60px;
+                }
+                h1{
+                    font-size: 45px;
+                }
+                .round3{
+                    margin-top: 23px;
+                    height: 135px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .row{
+        width: 155vh;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .row{
+        width: 150vh;
+    }
+}
+
+// @media screen and (max-width: 925px){
+//     .row{
+//         width: 14vx;
+//     }
+// }
+
+@media screen and (max-width: 850px){
+    .row{
+        .nav{
+            .box{
+                margin-top: -1190px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px){
+    .row{
+        .nav{
+            .box{
+                margin-top: 1190px;
+            }
+        }
+        width: 155vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row{
+        .nav{
+            .box{
+                width: 118vh;
+                .shadow2{
+                    width: 770px;
+                }
+            }
+            
+            .div{
+                .img8{
+                    margin-left: 700px;
+                    margin-top: 0;
+                }
+                img{
+                    margin-left: -100px;
+                    margin-top: 40px;
+                }
+                .pagess{
+                    display: grid;
+                    .first{
+                        height: 620px;
+                        width: 450px;
+                        .first1{
+                            height: 280px;
+                            width: 100%;
+                            h4{
+                                font-size: 60px;
+                            }
+                            p{
+                                font-size: 30px;
+                                margin-top: -20px;
+                            }
+                            .gradus{
+                                margin-top: 130px;
+                                height: 100px;
+                                width: 100px;
+                            }
+                            .h112{
+                                font-size: 97px;
+                                margin-top: -75px;
+                                b{
+                                    margin-top: 45px;
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+                        .borderbottom{
+                            margin-top: 20px;
+                            width: 400px;
+                        }
+                        .second1{
+                            height: 280px;
+                            width: 100%;
+                            margin-top: -20px;
+                            b{
+                                font-size: 25px;
+                                i{
+                                    margin-left: 10px;
+                                    width: 50px;
+                                    height: 50px;
+                                    font-size: 40px;
+                                }
+                            }
+                            button{
+                                font-size: 20px;
+                                height: 60px;
+                                width: 180px;
+                            }
+                        }
+                    }
+                    .first112{
+                        height: 620px;
+                        width: 450px;
+                        margin-left: 100px;
+                        margin-top: 50px;
+                        .first1{
+                            height: 280px;
+                            width: 100%;
+                            h4{
+                                font-size: 60px;
+                            }
+                            p{
+                                font-size: 30px;
+                                margin-top: -20px;
+                            }
+                            .gradus{
+                                margin-top: 130px;
+                                height: 100px;
+                                width: 100px;
+                            }
+                            .h112{
+                                font-size: 97px;
+                                margin-top: -75px;
+                                b{
+                                    margin-top: 45px;
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+                        .borderbottom{
+                            margin-top: 20px;
+                            width: 400px;
+                        }
+                        .second1{
+                            height: 280px;
+                            width: 100%;
+                            margin-top: -20px;
+                            b{
+                                font-size: 25px;
+                                i{
+                                    margin-left: 10px;
+                                    width: 50px;
+                                    height: 50px;
+                                    font-size: 40px;
+                                }
+                            }
+                            button{
+                                font-size: 20px;
+                                height: 60px;
+                                width: 180px;
+                            }
+                        }
+                    }
+                    .first1122{
+                        height: 620px;
+                        width: 450px;
+                        margin-left: 100px;
+                        margin-top: 50px;
+                        .first1{
+                            height: 280px;
+                            width: 100%;
+                            h4{
+                                font-size: 60px;
+                            }
+                            p{
+                                font-size: 30px;
+                                margin-top: -20px;
+                            }
+                            .gradus{
+                                margin-top: 130px;
+                                height: 100px;
+                                width: 100px;
+                            }
+                            .h112{
+                                font-size: 97px;
+                                margin-top: -75px;
+                                b{
+                                    margin-top: 45px;
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+                        .borderbottom{
+                            margin-top: 20px;
+                            width: 400px;
+                        }
+                        .second1{
+                            height: 280px;
+                            width: 100%;
+                            margin-top: -20px;
+                            b{
+                                font-size: 25px;
+                                i{
+                                    margin-left: 10px;
+                                    width: 50px;
+                                    height: 50px;
+                                    font-size: 40px;
+                                }
+                            }
+                            button{
+                                font-size: 20px;
+                                height: 60px;
+                                width: 180px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .stu{
+            margin-left: 100px;
+        }
+        .product{
+            height: 400px;
+            width: 300px;
+            .product-thumb{
+                a{
+                    img{
+                        height: 400px;
+                        margin-top: -100px;
+                        width: 300px;
+                        margin-left: -100px;
+                    }
+                }
+                .text{
+                    width: 300px;
+                    height: 400px;
+                    margin-top: -100px;
+                    .text2{
+                        width: 220px;
+                        height: 100px;
+                    }
+                    .arrow{
+                        height: 70px;
+                        width: 70px;
+                    }
+                    &:hover{
+                        .arrow{
+                            margin-left: 210px;
+                        }
+                    }
+                }
+            }
+        }
+        h2{
+            margin-left: 100px;
+            font-size: 45px;
+        }
+        .nav{
+            .div{
+                .pagges{
+                    border: solid;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 669px) {
+    .product {
+        width: 355px;
+    }
+
+    .btn-custom {
+        padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .product {
+        width: 355px;
+    }
+
+    .btn-custom {
+        padding: 10px 30px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .row{
+        border: solid 1px;
+        width: 119vh;
+    }
+}

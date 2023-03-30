@@ -1,0 +1,13 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600;700&display=swap');
+@mixin df($jc,$al) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $al;
+}
+@mixin dg($gtc,$gg) {
+    display: flex;
+    grid-template-columns: $gtc;
+    grid-gap: $gg;
+}

@@ -1,0 +1,138 @@
+@import"../../main.scss";
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.063), rgba(0, 0, 255, 0.025), rgba(0, 0, 255, 0.03)), url(./img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // height: 130vh;
+    
+    .asos{
+        @include df(space-around,none);
+        padding: 250px 0px 0px 90px;
+        img{
+            padding-top: 2.5px;
+        }
+        .text{
+            padding-top: 80px;
+            h4 {
+                font-weight: 700;
+                color: #824CF2;
+                display: inline-block;
+                text-transform: uppercase;
+                text-decoration: underline;
+                font-family: 'Domine', serif;
+            }
+            h1{
+                line-height: 1.22;
+                font-size: 72px;
+                font-weight: 600;
+                color: #1B1D21;
+                width: 70%;
+                font-family: 'Domine', serif;
+                margin: 18px 0px 25px 0px;
+            }
+            p{
+                font-size: 18px;
+                text-transform: capitalize;
+                color: #494A4D;
+                width: 70%;
+                font-family: 'Inter', sans-serif;
+                line-height: 1.62;
+                padding-bottom: 65px;
+            }
+            
+            .btn2 {
+                padding: 20px 35px;
+                background-color: #824CF2;
+                color: #fff;
+                font-size: 16px;
+                border: none;
+                font-family: 'Domine', serif;
+                transition: all 0.5s;
+                cursor: pointer;
+
+                &:hover {
+                    background: none;
+                    outline: 1px solid #824CF2;
+                    color: #824CF2;
+                    transition: all 0.5s;
+                }
+            }
+            .log{
+                position: absolute;
+                padding-top: 68px;
+                cursor: text;
+            }
+        }
+    }
+    .animet {
+        position: absolute;
+        animation: 5s down-up-one infinite;
+        left: 4.5%;
+        bottom: 25%;
+        z-index: -1;
+    }
+    @keyframes down-up-one{
+        0%{
+            transform: rotateX(0deg) translateY(0px);
+        }
+        50%{
+            transform: rotateX(0deg) translateY(25px)
+        }
+        100%{
+            transform: rotateX(0deg) translateY(0px);
+        }
+    }
+    .animet1{
+        left: 45%;
+        top: 30%;
+        z-index: -1;
+        max-width: 10%;
+        position: absolute;
+        animation: 15s moveLeftRight infinite;
+    }
+    @keyframes moveLeftRight{
+        0%{
+            transform: translateX(0);
+        }
+        50%{
+            transform: translateX(80px);
+        }
+        100%{
+            transform: translateX(0);
+        }
+    }
+    .animet2{
+        left: 50%;
+        bottom: -12%;
+        z-index: -1;
+        position: absolute;
+        animation: 20s rotated_circle infinite;
+    }
+    @keyframes rotated_circle{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    .animet3{
+        right: 5%;
+        bottom: 25%;
+        z-index: -1;
+        position: absolute;
+        animation: 5s down-up-two infinite;
+    }
+    @keyframes down-up-two{
+        0%{
+            transform: rotateX(0deg) translate(0px);
+        }
+        50% {
+            transform: rotateX(0deg) translate(-25px, -25px);
+        }
+        100%{
+            transform: rotateX(0deg) translate(0px);
+        }
+    }
+}
